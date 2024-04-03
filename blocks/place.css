@@ -44,6 +44,7 @@
   height: 460px;
   grid-column: 1;
   grid-row: 2;
+  object-fit: cover;
 }
 
 .place__website {
