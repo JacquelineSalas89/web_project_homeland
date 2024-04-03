@@ -18,3 +18,4 @@ Uso de media queries.
 Se utilizó Git Bash para agregar y empujar el ptoyecto desde el repositorio local al repositorio remoto en GitHub.
 
 4. El enlace a GitHub Pages
+   https://jacquelinesalas89.github.io/web_project_homeland/
