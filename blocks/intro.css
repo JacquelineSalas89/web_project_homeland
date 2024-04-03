@@ -1,0 +1,102 @@
+.intro__title {
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 54px;
+  max-width: 1017px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: auto;
+  padding-top: 92px;
+}
+
+.intro__quote {
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 722px;
+  margin: 0 auto 0 148px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.intro__quote-footer {
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 400;
+  display: flex;
+  justify-content: right;
+
+  position: absolute;
+  right: 0px;
+  bottom: -10px;
+}
+
+.intro__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 auto 0 148px;
+  padding-top: 32px;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 900px) {
+  .intro__title {
+    max-width: 720px;
+    font-weight: 600;
+    padding-top: 55px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro__title {
+    font-size: 32px;
+    max-width: 288px;
+    font-weight: 600;
+    padding-top: 44px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .intro__quote {
+    max-width: 720px;
+    padding-top: 15px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro__quote {
+    max-width: 285px;
+    padding-top: 9px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .intro__paragraph {
+    padding-top: 32px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro__paragraph {
+    max-width: 288px;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro__quote-footer {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    line-height: 1.4;
+  }
+}
