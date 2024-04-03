@@ -103,7 +103,6 @@
   max-width: 355px;
   height: 48px;
   background: #0278fe;
-
   border-radius: 4px 0px 0px 0px;
   font-family: "Inter", Arial, sans-serif;
   color: #ffffff;
@@ -111,7 +110,7 @@
   font-size: 18px;
   line-height: 1.2px;
   border-bottom-style: none;
-  background: #0278fe;
+  background-color: #0278fe;
   text-decoration: none;
   margin-top: 48px;
 }
